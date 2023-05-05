@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	box-sizing: border-box;
+	padding:0;
+}
+.containr {
+	
+    display: flex;
+    margin: 40px auto 0;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: #03a9f4cf;
+}
+.form-container{
+	 width: 85%;
+}
+input {
+    padding: 10px 4px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 6px;
+    border-color: #03a9f4cf;
+    border-style: solid;
+    border-width: 1px;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #03a9f4cf;
+    color: white;
+    /* font-size: 16px; */
+}
+input:focus-visible {
+	outline: none;
+}
+span {
+    display: block;
+    padding: 4px;
+    color: #a32d24;
+    width: fit-content;
+}

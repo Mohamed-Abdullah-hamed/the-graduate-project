@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+	font-family: 'Cairo', sans-serif;
+	margin: 0;
+}
+.parent-container{
+	 margin: 50px auto 0;
+}
+.container {
+	border-radius: 112px 10px;
+	padding: 70px 20px 60px;
+	width: 420px;
+	margin: auto;
+	margin-top: 12px;
+	text-align: center;
+	box-shadow: inset 0px 0px 9px 1px #607d8b;
+}
+
+h1 {
+	margin: 12px;
+}
+
+#email {
+	margin-left: 34px;
+	margin-bottom: 16px;
+	width: 250px;
+	margin-right: 10px;
+	border-style: solid;
+	border-color: #607d8b;
+	border-width: 1px;
+	border-radius: 4px 4px;
+	caret-color: #8fb0bf;
+	text-indent: 2px;
+	padding: 4px;
+}
+
+#pass {
+	width: 250px;
+	margin-left: 4px;
+	margin-right: 10px;
+	border-style: solid;
+	border-color: #607d8b;
+	border-width: 1px;
+	border-radius: 4px 4px;
+	caret-color: #8fb0bf;
+	text-indent: 2px;
+	padding: 4px;
+}
+
+input:focus-visible {
+	outline: 0;
+}
+span {
+    display: block;
+    padding: 4px;
+    color: #a32d24;
+    width: fit-content;
+    margin:auto;
+}
+.submit {
+	margin: 32px 0 0 60px; padding : 8px 24px;
+	border-radius: 6px 6px;
+	border-width: 0;
+	border-color: #78909c;
+	cursor: pointer;
+	font-weight: 800;
+	letter-spacing: .4px;
+	color: #37474f;
+	padding: 8px 24px;
+}
